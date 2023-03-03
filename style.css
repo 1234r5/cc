@@ -1,0 +1,19 @@
+.grid{
+    width: 560px;
+    min-width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(206, 201, 201);
+    padding: 5px;
+
+}
+.grid div{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.cen{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
