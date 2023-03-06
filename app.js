@@ -158,6 +158,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     window.setInterval(function() {
+        checkMove("bigpool", 10);
+        checkMove("smallpool", 10);
+        checkMove("fiverow", 10);
+        checkMove("fivecolumn", 10);
+        checkMove("fourrow", 10);
+        checkMove("fourcolumn", 10);
         checkMove("threerow", 10);
         checkMove("threecolumn", 10);
         moveDown();    
