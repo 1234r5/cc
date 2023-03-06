@@ -121,29 +121,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     //  X X X 
                     arrCase=[i, i+1, i+2, i+width, i+width+1, i+width+2, i+width*2, i+width*2+1, i+width*2+2];
                     arrNoGo=[6,7,14, 15, 22, 23, 30, 31, 38, 39, 46, 47, 48,49,50,51,52,53,54,55,56,57,58,59,60,61, 62, 63];
-                    break;
-                case "diamond":
-                    //    X
-                    //  X   X
-                    //    X
-                    break;
-                case "cross":
-                    //    X
-                    //  X X X
-                    //    X
-                    break;
-                case "fourleftdiagonal":
-                    //  X
-                    //    X
-                    //      X
-                    //        X
-                    break;
-                case "fourrightdiagonal":
-                    //        X
-                    //      X
-                    //    X
-                    //  X
-                    break;    
+                    break;  
                 default:
             }
 
